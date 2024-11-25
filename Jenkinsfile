@@ -50,7 +50,6 @@ pipeline {
                     // Navigate to the project folder, build with Maven, and run the application
                     sh '''
                         # Navigate to the project directory
-                        cd simpleapp/simpleapp
                         # Clean and install using Maven
                         mvn clean install
                         # Run the application
